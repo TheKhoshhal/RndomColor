@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #212529;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 36px;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 150px);
+}
+
+.change {
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, 40px);
+  stroke: #212529;
+  cursor: pointer;
+  border: none;
+  background-color: #212529;
+  color: #fff;
+  padding: 7px 16px;
+  border-radius: 20px;
+}
